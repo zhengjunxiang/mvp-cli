@@ -9,13 +9,13 @@ const tplObj = require(`${__dirname}/../template`)
 program
   .usage('<template-name> [project-name]')
 program.parse(process.argv)
-// 当没有输入参数的时候给个提示
+// 没有输入参数的时候给个提示
 if (program.args.length < 1) return program.help()
 
 // 好比 vue init webpack project-name 的命令一样，第一个参数是 webpack，第二个参数是 project-name
 let templateName = program.args[0]
 let projectName = program.args[1]
-// 小小校验一下参数
+// 校验参数
 if (!tplObj[templateName]) {
   console.log(chalk.red('\n Template does not exit! \n '))
   return
