@@ -4,7 +4,7 @@
   "main": "index.js",
   "author": "Lam",
   "license": "MIT",
-  "repository": "https: //github.com/zhengjunxiang/matrixport-cli",
+  "homepage": "https: //github.com/zhengjunxiang/matrixport-cli",
   "bin": {
     "mvp": "bin/mvp",
     "mvp-add": "bin/mvp-add",
