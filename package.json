@@ -1,10 +1,10 @@
 {
-  "name": "matrixport-cli",
-  "version": "1.0.1",
+  "name": "mport-cli",
+  "version": "1.0.0",
   "main": "index.js",
   "author": "Lam",
   "license": "MIT",
-  "homepage": "https: //github.com/zhengjunxiang/matrixport-cli",
+  "homepage": "https: //github.com/zhengjunxiang/mvp-cli",
   "bin": {
     "mvp": "bin/mvp",
     "mvp-add": "bin/mvp-add",
